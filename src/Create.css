@@ -1,0 +1,16 @@
+input{
+    font-size: 1.2rem;
+    font-family: Roboto;
+    margin: 2%;
+}
+select{
+    font-size: 1.2rem;
+    font-family: Roboto;
+    margin: 2%;
+
+}
+button{
+    font-size: 1.2rem;
+    font-family: Roboto;
+    justify-content: space-evenly;
+}

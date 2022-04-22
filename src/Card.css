@@ -1,0 +1,15 @@
+.card{
+    width: 20%;
+    height: 30%;
+    background-color: skyblue;
+   text-align: center;
+   padding: 1%;
+   margin: 2%;
+}
+.box{
+   background-color: yellow;
+   background-color: red;
+   background-color: green;
+   height: 2px;
+   width: 2px;
+}
