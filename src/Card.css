@@ -2,14 +2,18 @@
     width: 20%;
     height: 30%;
     background-color: skyblue;
-   text-align: center;
-   padding: 1%;
-   margin: 2%;
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+}
+@media(max-width:768px){
+   .card{
+      width: auto;
+      height: auto;
+   }
 }
 .box{
-   background-color: yellow;
-   background-color: red;
-   background-color: green;
-   height: 2px;
-   width: 2px;
+  
+   height: 17px;
+   width: 17px;
 }

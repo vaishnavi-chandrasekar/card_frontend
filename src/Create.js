@@ -18,7 +18,7 @@ function Create() {
     },
     onSubmit: async (values) => {
       try {
-        await fetch("http://localhost:3001/userpost", {
+        await fetch("http://localhost:5000/userpost", {
           method: "POST",
           body: JSON.stringify(values),
           headers: {
@@ -49,12 +49,12 @@ function Create() {
           placeholder="Card title"
           name="cardtitle"
           onChange={formik.handleChange}
-          value={formik.values.cardtitle}
+          value={formik.values.cardtitle} required
         ></input>
         <br />
         <select defaultValue={"DEFAULT"} name="status"
             onChange={formik.handleChange}
-            value={formik.values.value}>
+            value={formik.values.value} required>
           <option value="DEFAULT" disabled>Status</option>
           <option
             name="status"
